@@ -198,27 +198,44 @@ script = {
 
 know = {
     init: function () {
-        $('.circle-level').circleProgress({
-            value: 0.35,
-            // animation: false,
-            fill: {gradient: ['#e0b750', '#da2fed']},
-            emptyFill: 'rgba(0,0,0,0.3)'
-        });
-
-        $('.circle-xp').circleProgress({
-            value: 0.35,
-            // animation: false,
-            fill: {gradient: ['#C9E060', '#80C7ED']},
-            emptyFill: 'rgba(0,0,0,0.3)'
-        });
+        this.set();
     },
 
-    set: function (val) {
-        $(e).circleProgress({
-            value: val,
-            // animation: false,
-            fill: {gradient: ['#e0b750', '#da2fed']},
-            emptyFill: 'rgba(0,0,0,0.3)'
+    set: function () {
+        var itens = $('#know').find('.item');
+
+        $(itens).each(function () {
+            var $this   = $(this);
+            var level   = $this.attr('data-level');
+            var xp      = $this.attr('data-xp');
+            var since      = $this.attr('data-since');
+
+            console.log( xp*100 );
+
+            var circleLevel = $this.find('.circle-level');
+            var circleXP = $this.find('.circle-xp');
+
+            var d = new Date();
+            var currentYear = d.getFullYear();
+
+            var years = currentYear - since;
+
+            $(circleLevel).find('.time').html(years);
+            $(circleXP).find('.percent').html( (xp*100)+'%' );
+
+            $(circleLevel).circleProgress({
+                value: level,
+                // animation: false,
+                fill: {gradient: ['#e0b750', '#da2fed']},
+                emptyFill: 'rgba(0,0,0,0.3)'
+            });
+
+            $(circleXP).circleProgress({
+                value: xp,
+                // animation: false,
+                fill: {gradient: ['#C9E060', '#80C7ED']},
+                emptyFill: 'rgba(0,0,0,0.3)'
+            });
         });
     }
 };

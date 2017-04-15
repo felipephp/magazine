@@ -19,13 +19,13 @@
         <div id="menu">
             <div class="inside">
                 <div id="photo">
-                    <img src="#">
+                    <img src="/site/media/images/felipebarreiros.jpg">
                     <span>Felipe Barreiros</span>
                 </div>
                 <div class="itens">
                     <a class="anchor-scroll" href="#init">início</a>
-                    <a class="anchor-scroll" href="#xp">conhecimento</a>
                     <a class="anchor-scroll" href="#about">sobre mim</a>
+                    <a class="anchor-scroll" href="#xp">conhecimento</a>
                     <a class="anchor-scroll" href="#history">histórico profissional</a>
                     <a class="anchor-scroll" href="#contact">contato</a>
                 </div>
@@ -37,20 +37,12 @@
             <div id="particles-js"></div>
             <div id="absolute-center">
                 <div class="info">
-                    <h1>Felipe Barreiros</h1>
-                    <h2>desenvolvedor web full stack</h2>
-                </div>
-            </div>
-        </div>
-
-        <div id="xp" class="container" >
-            <div class="parallax-window" data-parallax="scroll" data-image-src="/site/media/images/php.jpg">
-                <div class="bg"></div>
-                <div class="title">Conhecimento</div>
-            </div>
-            <div class="full">
-                <div  class="inside">
-                    <?php require('../src/views/knowledge.php') ?>
+                    <a href="#contact" class="cv_impressor anchor-scroll">Download CV</a>
+                    <a href="#about" class="cv_impressor knowme anchor-scroll">conheça-me</a>
+                    <div class="headline">
+                        <h1>Felipe Barreiros</h1>
+                        <h2>desenvolvedor web full stack</h2>
+                    </div>
                 </div>
             </div>
         </div>
@@ -63,6 +55,18 @@
             <div class="full">
                 <div  class="inside">
                     <?php require('../src/views/about.php') ?>
+                </div>
+            </div>
+        </div>
+
+        <div id="xp" class="container" >
+            <div class="parallax-window" data-parallax="scroll" data-image-src="/site/media/images/php.jpg">
+                <div class="bg"></div>
+                <div class="title">Conhecimento</div>
+            </div>
+            <div class="full">
+                <div  class="inside">
+                    <?php require('../src/views/knowledge.php') ?>
                 </div>
             </div>
         </div>
@@ -88,6 +92,9 @@
                 <div  class="inside">
                     <?php require('../src/views/contact.php') ?>
                 </div>
+            </div>
+            <div class="footer">
+                <div style="font-size: 10px;">Desenvolvido por Felipe Barreiros - Todos os Direitos Reservados - ©<?= Date('Y'); ?></div>
             </div>
         </div>
 
