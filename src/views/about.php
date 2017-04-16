@@ -2,12 +2,12 @@
 
 <div class="videos">
     <h1>profissional</h1>
-    <iframe src="https://www.youtube.com/embed/r5z-lilm-gg" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/ThBqeFoIiyg" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="videos">
     <h1>pessoal</h1>
-    <iframe src="https://www.youtube.com/embed/wB8mr4iViy0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/ThBqeFoIiyg" frameborder="0" allowfullscreen></iframe>
 </div>
 
 <div class="cleaner"></div>
