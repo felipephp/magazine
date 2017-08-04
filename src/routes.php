@@ -11,5 +11,5 @@ $app->get('/', function ($request, $response, $args) {
 
 
 $app->get('/maandroid', function ($request, $response, $args){
-    return $this->renderer->render($response, 'menteabertajs.html', $args);
+    return $this->renderer->render($response, 'menteabertajs.php', $args);
 });

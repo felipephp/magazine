@@ -1,0 +1,12 @@
+:root{
+    --blueDark: #225b8f;
+    --lightDark: #3083ca;
+}
+
+#main-tabs{
+    background-color: var(--blueDark);
+}
+
+#main-tabs div{
+    /*line-height: 14px;*/
+}
