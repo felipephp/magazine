@@ -1,10 +1,14 @@
-:root{
-    --blueDark: #225b8f;
-    --lightDark: #3083ca;
-}
+/*:root{*/
+    /*--blueDark: #225b8f;*/
+    /*--lightDark: #3083ca;*/
+/*}*/
+
+/*!*#main-tabs{*!*/
+    /*!*background-color: var(--blueDark);*!*/
+/*}*/
 
 #main-tabs{
-    background-color: var(--blueDark);
+    background-color: #225b8f;
 }
 
 #main-tabs div{
