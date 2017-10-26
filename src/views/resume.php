@@ -8,8 +8,9 @@
             </div> <!-- cd-timeline-img -->
 
             <div class="cd-timeline-content">
-                <h2>Avianca em Revista - 05/2016 - atualmente</h2>
-                <p>Desenvolvimento e manutenção de duas revistas online, uma em Node.js e outra em PHP (Laravel) desenvolvida desde o início. Sistemas Baseados em APIs para revendas e consulta de informações de países. Modelagem de Dados, levantamento de requisitos, configuração e manutenção dos servidores Amazon/DigitalOcean</p>
+                <h2>Blanko - 05/2016 - atualmente</h2>
+                <p>Desenvolvimento de sites e sistemas web em PHP (Laravel), NodeJS e aplicativo para android (nativo), Integrações e criação de APIs REST, Meios de Pagamento.</p>
+                <p>Levantamento de requisitos, modelagem de dados, trabalho em equipe com 4devs no mesmo projeto utilizando metodologia SCRUM.</p>
 <!--<!--                <a href="#0" class="cd-read-more">Read more</a>-->-->
                 <span class="cd-date">Maio 2016</span>
             </div> <!-- cd-timeline-content -->
